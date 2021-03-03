@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <AddRazorSupportForMvc>true</AddRazorSupportForMvc> 
-        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>      
+        <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -12,6 +12,6 @@
 
     <ItemGroup>
         <FrameworkReference Include="Microsoft.AspNetCore.App" />
-    </ItemGroup> 
+    </ItemGroup>
 
 </Project>
